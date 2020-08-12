@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://js.tappaysdk.com/tpdirect/v4"></script>
+    <title>Stylish</title>
+</head>
+
+<body>
+    <script src="js/memberHeader.js"></script>
+    <section class="cart_container">
+        <div id="loader"></div>
+    </section>
+    <section class="pay_container">
+        <div class="payment_info">
+            <div class="payment_title">付款資料</div>
+            <div class="info">
+                <div class="row">信用卡號碼</div>
+                <div class="tpfield" placeholder="**** **** **** ****"  id="card-number"></div>
+            </div>
+            <div class="info">
+                <div class="row">有效期限</div>
+                <div class="tpfield" placeholder="MM / YY" id="card-expiration-date"></div>
+            </div>
+            <div class="info">
+                <div class="row">安全碼</div>
+                <div class="tpfield" placeholder="CCV" id="card-ccv"></div>
+            </div>
+        </div>
+        <div class="payment_confirm">
+        </div>
+        <button id="paybutton" onclick="onSubmit()">確認付款</button>
+    </section>
+    <script src="js/footer.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/utility.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

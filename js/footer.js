@@ -1,0 +1,17 @@
+document.write( '    <footer>\n' );
+document.write( '        <div class=\"footer-link\">\n' );
+document.write( '            <li class=\"navItem\">關於Stylish</li>\n' );
+document.write( '            <li class=\"navItem\">服務條款</li>\n' );
+document.write( '            <li class=\"navItem\">隱私政策</li>\n' );
+document.write( '            <li class=\"navItem\">聯絡我們</li>\n' );
+document.write( '            <li class=\"navItem\">FAQ</li>\n' );
+document.write( '        </div>\n' );
+document.write( '        <div class=\"footer-social\">\n' );
+document.write( '            <img src=\"imgs/line.png\" />\n' );
+document.write( '            <img src=\"imgs/twitter.png\" />\n' );
+document.write( '            <img src=\"imgs/facebook.png\" />\n' );
+document.write( '        </div>\n' );
+document.write( '        <div class=\"footer-copyright\">\n' );
+document.write( '            ©2020. All rights reserved.\n' );
+document.write( '        </div>\n' );
+document.write( '    </footer>' );

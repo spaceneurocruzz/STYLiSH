@@ -1,0 +1,43 @@
+#profile_container{
+    width: 85%;
+    margin: 20px auto 50px auto;
+}
+
+#member_title{
+    white-space: nowrap;
+}
+
+#fbLogout, #fbLogin{
+    margin-top: 20px;
+    margin-left: 50%;
+    background-color: rgb(44, 43, 43);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 20%;
+    align-items: right;
+    line-height: 30px;
+}
+
+.profile_title{
+    display:flex;
+
+}
+
+@media (min-width: 1000px) {
+    #fbLogout, #fbLogin{
+        margin-top: 20px;
+        margin-left: 70%;
+        background-color: rgb(44, 43, 43);
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        width: 20%;
+        align-items: right;
+        line-height: 30px;
+    }
+  }

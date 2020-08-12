@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/thankyou.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://js.tappaysdk.com/tpdirect/v4"></script>
+    <title>Stylish</title>
+</head>
+
+<body> 
+    <div class="largescreen-header-container">
+        <a href="index.html?category=all"><img src="imgs/logo.png" class="logo" id="all" /></a>
+        <nav class="main-nav">
+            <a href="index.html?category=women" class="navItem">
+                <li id="women">女裝</li>
+            </a>
+            <a href="index.html?category=men" class="navItem">
+                <li id="men">男裝</li>
+            </a>
+            <a href="index.html?category=accessories" class="navItem">
+                <li id="accessories">配件</li>
+            </a>
+        </nav>
+        <div class="right-nav forlargescreen">
+            <a href="cart.html"><img src="imgs/cart.png" /></a>
+            <div class="cartCountNode">0</div>
+            <a href="profile.html"><input type="image" img src="imgs/member.png" class="fbMainLogin"/></a>
+        </div>
+    </div>
+
+    <div class="smallscreen-header-container">
+        <div class="cart forsmallscreen">
+            <a href="cart.html"><img src="imgs/cart-mobile.png" /></a>
+            <a href="cart.html"><p>購物車</p></a>
+            <div class="cartCountNode">0</div>
+        </div>
+        <div class="forsmallscreen">|</div>
+        <div class="cart-member forsmallscreen">
+            <a href="profile.html"><input type="image" img src=" imgs/member-mobile.png"/></a>
+            <a href="profile.html"><p id="memberclick">會員</p></a>
+        </div>
+    </div>
+    
+    <section class="thankyou_container_none"><div id="loader"></div></section>
+    
+    <section class="thankyou_container">
+        <p>感謝您的訂購。</p>
+        <p>我們將會盡快處理您的訂單!</p>
+        <p>訂單號碼為：</p>
+        <p id="orderNo">無此訂單</p>
+        <p><a href="index.html" class="goback">按此回首頁</p></a>
+        <p>(頁面將在<span id="countdown">15</span>秒後自動跳轉)</p>
+        <div class="capture">以下為您訂購之商品快照：</div>
+        <button class="print" onclick="window.print()">按此列印</button>
+        <div id="cart_item_title">
+        </div>
+        <div id="cart_item_box">
+        </div>
+    </section>
+    <script src="js/footer.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/thankyou.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

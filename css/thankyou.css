@@ -1,0 +1,46 @@
+.thankyou_container {
+  width: 85%;
+  margin: 20px auto 50px auto;
+}
+
+.thankyou_container_none {
+  width: 85%;
+  margin-bottom: 400px;
+}
+
+.thankyou_container p {
+  text-align: center;
+  color: rgb(95, 93, 93);
+}
+
+#orderNo {
+  color: red;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.goback {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cart_item_title {
+  width: 90%;
+}
+
+.capture {
+  padding-top: 30px;
+  color: rgb(95, 93, 93);
+}
+
+.print {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 1000px) {
+  .print {
+    margin-left: 90%;
+    margin-bottom: 20px;
+  }
+}
